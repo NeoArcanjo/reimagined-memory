@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "docs"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+jupyter = "^1.0.0"
+nbformat = "^5.9.0"
+import-ipynb = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
